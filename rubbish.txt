@@ -1,0 +1,23 @@
+        # self.fig, self.ax = plt.subplots()
+
+    # def build_graph(self, other):
+    #     # fig, ax = plt.subplots()  # сделать чекбокс логарифмической оси в главном окне
+    #     if other:
+    #         self.ax.plot(self.x_value, self.y_value, 'o')
+    #     else:
+    #         self.ax.plot(self.x_value, self.y_value)
+    #     self.ax.minorticks_on()
+    #     if self.log == 'True':
+    #         plt.xscale('log')
+    #     self.ax.grid(which='major',
+    #                  color='k',
+    #                  linewidth=0.5)
+    #     self.ax.grid(which='minor',
+    #                  color='k',
+    #                  linestyle=':')
+    #     plt.show()
+    #     try:
+    #         while len(plt.get_fignums()) > 0:
+    #             plt.pause(0.1)
+    #     except:
+    #         plt.close('all')
